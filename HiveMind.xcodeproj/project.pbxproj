@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		298F596D1A8468C6E34122F0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FDDB823BF0EEDB82382B19 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9CE0DC916026ADB05B563AE1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FDDB823BF0EEDB82382B19 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A404D8481B3B2AE4004B0349 /* TechnologyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A404D8461B3B2AE4004B0349 /* TechnologyTableViewCell.swift */; };
 		A4B2FD181B184897000A1147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B2FD171B184897000A1147 /* Images.xcassets */; };
 		A4B2FD1B1B184897000A1147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B2FD191B184897000A1147 /* LaunchScreen.xib */; };
 		A4B2FD271B184898000A1147 /* HiveMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B2FD261B184898000A1147 /* HiveMindTests.swift */; };
@@ -63,6 +64,7 @@
 		1774085DF022780D2368674F /* Pods-HiveMind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiveMind.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiveMind/Pods-HiveMind.release.xcconfig"; sourceTree = "<group>"; };
 		19A99988DD770A4D054A475B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		40FAF1FDD1E7F24BCB3CED27 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A404D8461B3B2AE4004B0349 /* TechnologyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnologyTableViewCell.swift; sourceTree = "<group>"; };
 		A4B2FD0B1B184897000A1147 /* HiveMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiveMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B2FD0F1B184897000A1147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B2FD171B184897000A1147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				A4FA8B451B1BA2CF00BF48BE /* SiteViewController.swift */,
 				A4FA8B431B1B9D0B00BF48BE /* Site.swift */,
 				A4B2FD521B1B4C63000A1147 /* GetURL.js */,
+				A404D8461B3B2AE4004B0349 /* TechnologyTableViewCell.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 				A4FA8B441B1B9D0B00BF48BE /* Site.swift in Sources */,
 				A4B2FD4F1B1B44E2000A1147 /* RootActionViewController.swift in Sources */,
 				A4FA8B461B1BA2CF00BF48BE /* SiteViewController.swift in Sources */,
+				A404D8481B3B2AE4004B0349 /* TechnologyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

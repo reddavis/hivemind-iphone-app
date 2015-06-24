@@ -6,6 +6,7 @@ use_frameworks!
 pod 'SwiftHTTP', '~> 0.9.5'
 pod 'SwiftyJSON', '~> 2.2.0'
 pod 'SnapKit'
+pod 'HanekeSwift'
 
 
 target 'HiveMindTests' do

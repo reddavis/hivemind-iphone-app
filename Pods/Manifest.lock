@@ -1,14 +1,17 @@
 PODS:
+  - HanekeSwift (0.9.1)
   - SnapKit (0.12.0)
   - SwiftHTTP (0.9.5)
   - SwiftyJSON (2.2.0)
 
 DEPENDENCIES:
+  - HanekeSwift
   - SnapKit
   - SwiftHTTP (~> 0.9.5)
   - SwiftyJSON (~> 2.2.0)
 
 SPEC CHECKSUMS:
+  HanekeSwift: 50d37bfbc4432edc649167e538c259feccb4a2bb
   SnapKit: 00c388aa3bf1944c1b55472f31e841f75bd83882
   SwiftHTTP: cd7b248bc07db02926ff54cf19b580b78f7abfa1
   SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c

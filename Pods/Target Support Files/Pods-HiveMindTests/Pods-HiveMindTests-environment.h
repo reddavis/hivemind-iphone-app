@@ -6,6 +6,12 @@
 // project.
 
 
+// HanekeSwift
+#define COCOAPODS_POD_AVAILABLE_HanekeSwift
+#define COCOAPODS_VERSION_MAJOR_HanekeSwift 0
+#define COCOAPODS_VERSION_MINOR_HanekeSwift 9
+#define COCOAPODS_VERSION_PATCH_HanekeSwift 1
+
 // SnapKit
 #define COCOAPODS_POD_AVAILABLE_SnapKit
 #define COCOAPODS_VERSION_MAJOR_SnapKit 0
