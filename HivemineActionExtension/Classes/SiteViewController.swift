@@ -202,21 +202,33 @@ class SiteViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
         let cellIdentifier = "cellIdentifier"
-        var cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as? UITableViewCell
-        if cell == nil
-        {
-            cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: cellIdentifier)
-        }
+        var cell: UITableViewCell?
         
         if let tableSection = TableSection(rawValue: indexPath.section)
         {
             if tableSection == .Technologies
             {
+                let cellIdentifier = "technologyCellIdentifier"
+                var technologyCell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as? TechnologyTableViewCell
+                if technologyCell == nil
+                {
+                    technologyCell = TechnologyTableViewCell(reuseIdentifier: cellIdentifier)
+                }
+                
                 let technology = self.site?.technologies[indexPath.row]
-                cell?.textLabel?.text = technology?.label
+                technologyCell?.technology = technology
+                
+                cell = technologyCell
             }
             else if tableSection == .Details
             {
+                let cellIdentifier = "cellIdentifier"
+                cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as? UITableViewCell
+                if cell == nil
+                {
+                    cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: cellIdentifier)
+                }
+                
                 if let detailRows = DetailsSectionRow(rawValue: indexPath.row)
                 {
                     switch detailRows
