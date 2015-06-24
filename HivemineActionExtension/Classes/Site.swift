@@ -58,6 +58,7 @@ public struct Technology
     public let label: String
     public let group: String
     public let groupLabel: String
+    public let faviconURL: NSURL
     
     public init(dictionary: Dictionary<String, AnyObject>)
     {
@@ -65,5 +66,8 @@ public struct Technology
         self.label = dictionary["label"] as! String
         self.group = dictionary["group"] as! String
         self.groupLabel = dictionary["group_label"] as! String
+        
+        let faviconURLString = dictionary["favicon"] as! String
+        self.faviconURL = NSURL(string: faviconURLString)!
     }
 }
